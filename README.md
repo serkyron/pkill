@@ -10,3 +10,5 @@ if err != nil {
 }
 fmt.Println(output)
 ```
+
+**Note!** On Linux the underlying pkill command matches the process name you pass against a full command name. 
